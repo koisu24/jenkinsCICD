@@ -1,12 +1,8 @@
 {
-  "name": "jenkinscicd",
+  "name": "jenkins-cicd-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "start": "node index.js",
+    "test": "echo Running tests... && node test/index.test.js"
+  }
 }
